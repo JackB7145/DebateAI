@@ -1,0 +1,19 @@
+{
+  "name": "DebateAI",
+  "description": "Dual-AI debate simulator powered by retrieval-augmented generation",
+  "fullDescription": "DebateAI allows two AI models to engage in structured debates on any user-provided topic. Implemented using a FastAPI backend, Flan-XL model, and RAG pipeline for factual retrieval, the app streams live debates to users via a React front end connected through WebSockets.",
+  "techStack": ["React", "FastAPI", "Python", "Socket.IO", "Flan-XL", "RAG"],
+  "features": [
+    "Simulated debates between AI agents with contextual reasoning",
+    "Retrieval-augmented generation for evidence-backed dialogue",
+    "WebSocket-based streaming between backend and frontend",
+    "Adjustable debate structure and time controls",
+    "Topic embedding with cosine similarity for information retrieval",
+    "Fully asynchronous FastAPI backend for low-latency responses"
+  ],
+  "metrics": {
+    "commits": "19",
+    "pullRequests": "2",
+    "linesOfCode": "~3,400"
+  }
+}
